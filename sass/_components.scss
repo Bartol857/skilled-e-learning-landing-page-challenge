@@ -1,0 +1,36 @@
+//colors
+
+$lightblue: rgb(102, 108, 163);
+$darkblue: rgb(19, 24, 63);
+$gray: rgb(131, 134, 154);
+$magenta: rgb(247, 71, 128);
+$pink: rgb(255, 167, 195);
+$white: rgb(255, 255, 255);
+
+//gradients
+
+$bodygradient: linear-gradient(
+	0deg,
+	rgb(240, 241, 255) 0%,
+	rgb(255, 255, 255) 100%
+);
+$orangemagenta: linear-gradient(
+	0deg,
+	rgb(240, 42, 166) 0%,
+	rgb(255, 111, 72) 100%
+);
+$orangemagentahover: linear-gradient(
+	0deg,
+	rgb(248, 148, 211) 0%,
+	rgb(255, 183, 163) 100%
+);
+$bluemagenta: linear-gradient(
+	0deg,
+	rgb(240, 42, 166) 0%,
+	rgb(71, 81, 255) 100%
+);
+$bluemagentahover: linear-gradient(
+	0deg,
+	rgb(248, 148, 211) 0%,
+	rgb(193, 161, 239) 100%
+);

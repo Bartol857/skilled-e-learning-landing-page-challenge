@@ -1,0 +1,118 @@
+@media (min-width: 768px) {
+
+    .header {
+        position: relative;
+        margin: 16px 39px;
+        z-index: 1;
+    }
+
+    .info {
+        position: relative;
+        display: flex;
+        align-items: center;
+        z-index: 0;
+
+        &__textbox {
+            margin-left: 39px;
+        }
+
+        &__hero-img {
+            margin-top: -185px;
+            margin-right: -275px;
+            width: 1600px;
+            height: 750px;
+            background-image: url('../assets/image-hero-tablet.webp');
+        }
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0 39px 50px;
+
+        &__infobox{
+            align-items: flex-start;
+            margin-top: 20px;
+            padding-top: 45px;
+            height: 260px;
+        }
+
+        &__box {
+            margin: 20px 0;
+        }
+    }
+
+    .footer {
+        padding: 39px;
+    }
+}
+
+@media (min-width: 992px){
+   .info {
+    &__hero-img {
+        margin-right: -380px;
+    }
+   }
+}
+
+@media (min-width: 1200px){
+    body {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    h1 {
+        font-size: 56px;
+        line-height: 70px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .header {
+        margin: 16px 165px;
+    }
+
+    .info {
+        &__textbox{
+            margin-left: 165px;
+            width: 457px;
+        }
+
+        &__hero-img {
+            margin-top: -185px;
+            margin-right: -275px;
+            width: 1000px;
+            height: 950px;
+            background-image: url('../assets/image-hero-desktop.webp');
+        }
+    }
+
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 0 165px 100px;
+    }
+
+    .footer {
+        padding: 16px 165px;
+    }
+ }
+
+ @media (min-width: 1500px){
+    .info {
+
+        &__hero-img {
+            margin-right: -500px;
+            width: 100%
+        }
+    }
+ }
